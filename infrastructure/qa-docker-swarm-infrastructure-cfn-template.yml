@@ -179,4 +179,9 @@ Outputs:
     Description: 5th Docker Instance DNS Name
     Value: !Sub 
       - ${PublicAddress}
+<<<<<<< HEAD
       - PublicAddress: !GetAtt DockerInstance5.PublicDnsName
+=======
+      - PublicAddress: !GetAtt DockerInstance5.PublicDnsName
+  
+>>>>>>> feature/msp-19
