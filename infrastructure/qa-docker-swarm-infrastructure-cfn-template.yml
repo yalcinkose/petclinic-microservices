@@ -179,4 +179,4 @@ Outputs:
     Description: 5th Docker Instance DNS Name
     Value: !Sub 
       - ${PublicAddress}
-      - PublicAddress: !GetAtt DockerInstance5.PublicDnsNam
+      - PublicAddress: !GetAtt DockerInstance5.PublicDnsName
