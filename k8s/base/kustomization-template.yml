@@ -6,7 +6,7 @@ resources:
 - discovery-server-deployment.yaml
 - grafana-server-deployment.yaml
 - hystrix-dashboard-deployment.yaml
-- mysql-server-deployment.yaml
+# mysql-server-deployment.yaml
 - prometheus-server-deployment.yaml
 - tracing-server-deployment.yaml
 - vets-service-deployment.yaml
@@ -30,8 +30,7 @@ images:
   newName: "${IMAGE_TAG_CONFIG_SERVER}"
 - name: IMAGE_TAG_DISCOVERY_SERVER
   newName: "${IMAGE_TAG_DISCOVERY_SERVER}"
-- name: IMAGE_TAG_CUSTOMERS_SERVICE
-  newName: "${IMAGE_TAG_CUSTOMERS_SERVICE}"
+- 
 - name: IMAGE_TAG_VISITS_SERVICE
   newName: "${IMAGE_TAG_VISITS_SERVICE}"
 - name: IMAGE_TAG_VETS_SERVICE
