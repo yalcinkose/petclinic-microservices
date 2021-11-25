@@ -4,7 +4,6 @@ metadata:
   annotations:
     kompose.cmd: kompose convert -f k8s/docker-compose.yml -o k8s/base
     kompose.version: 1.22.0 (955b78124)
-  creationTimestamp: null
   labels:
     io.kompose.service: mysql-server
   name: mysql-server
